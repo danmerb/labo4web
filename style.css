@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+* {
+    margin: 3px 5px;
+}
+
 p{
     font-family: 'Roboto', sans-serif;
     color: #7f888f;
@@ -26,6 +30,10 @@ nav ul li{
     display: inline;
     padding: 1em;
     
+    
+}
+.red{
+    color:#7f888f;
 }
 
 input{
@@ -51,19 +59,57 @@ input:hover{
     grid-template-columns: 50% 50%;    
     border-bottom: 2px solid #7f888f ;
     padding: 20px 2px;
-
+    margin-bottom: 30px;
    
 }
 .main2{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin: 30px;
+    padding: 20px 2px;
 
 }
-
-.logo1{
+.ob{
     display: flex;
     flex-direction: row;
+    
 }
+
+.logo{
+    color: #f56a6a;
+    font-size: 40px;
+}
+
+
+
+.boton{
+    margin-top: 20px;
+}
+
+.gridcont{
+    font-family: sans-serif;
+    display: inline;
+    border-bottom: 3px solid #f56a6a;
+    margin-left: 30px;
+    padding: 20px 80px 20px 0px;
+    
+    
+}
+
+h5{
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+
+
+.main .tema{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px; 
+}
+
+
 
 
 
